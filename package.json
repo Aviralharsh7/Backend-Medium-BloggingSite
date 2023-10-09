@@ -1,0 +1,36 @@
+{
+  "name": "myapp",
+  "version": "0.0.0",
+  "description": "Medium clone using Node.js, Express, mongoDB",
+  "main": "app.js",
+  
+  "scripts": {
+    "start": "node ./bin/www",
+    "devstart": "nodemon ./bin/www",
+    "serverstart": "DEBUG=express-locarllibrary-tutorial:* npm run devstart",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",  
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.8.1",
+    "mongoose-unique-validator": "^3.1.0",
+    "slugify": "^1.6.5",
+
+    "cookie-parser": "~1.4.4",
+    "express": "~4.16.1",
+
+    "debug": "~2.6.9",
+    "http-errors": "~1.6.3"
+
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
