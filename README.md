@@ -57,10 +57,10 @@
 │   └── userRoutes.js
 ├── test
 └── views
-├── error.jade
-├── index.html
-├── index.jade
-└── layout.jade
+    ├── error.jade
+    ├── index.html
+    ├── index.jade
+    └── layout.jade
 ```
 
 ## Project Setup
