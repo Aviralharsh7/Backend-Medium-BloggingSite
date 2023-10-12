@@ -1,20 +1,22 @@
-# Backend of a Blogging Site
+# Backend of a Social Media Blogging platform
 
 *using Express.js and MongoDB*
 
 ## Functionalities
 
 - Implemented the Model-View-Controller (MVC) architecture
-- Authentication service using JSON Web Token (JWT) for secure access to user data and for CRUD operations on article data.
-    - Integrated Optional JWT for accessing article.
-- Sign up and login API
-    - hashing of password using bcrypt
-- Server requests secured using CORS middleware
-- Paginated feed of articles
-    - Integrated slugify for CRUD operations on articles as event listener “save”
 - Favourite articles
 - Follow author of articles
 - Comments on each article
+
+- Server requests secured using CORS middleware
+- Authentication service using JSON Web Token (JWT) for secure access to user data and for CRUD operations on article data.
+- Integrated Optional JWT for accessing article.
+- Sign up and login API (hashing of password using bcrypt)
+
+- Paginated feed of articles
+    - Integrated slugify for CRUD operations on articles as event listener “save”
+
 
 ## Project Tree
 
