@@ -1,21 +1,27 @@
-# Backend of a Social Media Blogging platform
-
-*using Express.js and MongoDB*
+# Zoo central 
+A Social Media Blogging platform *using Express.js and MongoDB*
 
 ## Functionalities
 
-- Implemented the Model-View-Controller (MVC) architecture
-- Favourite articles
-- Follow author of articles
-- Comments on each article
+- Implemented the Model-View-Controller (MVC) architecture.
+- Personalised feed for each user, alongwith pagination.
 
-- Server requests secured using CORS middleware
-- Authentication service using JSON Web Token (JWT) for secure access to user data and for CRUD operations on article data.
-- Integrated Optional JWT for accessing article.
-- Sign up and login API (hashing of password using bcrypt)
+<br> 
 
-- Paginated feed of articles
-    - Integrated slugify for CRUD operations on articles as event listener “save”
+- Favourite articles.
+- Follow author of articles.
+- Comments on each article.
+- Unique and multiple tags across articles.
+
+<br>
+
+- Implemented custom CORS to secure server 
+- Implemented Bcrypt for hashing user password at login and signup both. 
+- Implemented Slugify for CRUD operations on articles as event listener “save”
+- Implemented authentication service using JSON Web Token (JWT) for secure access to user data and for CRUD operations on article data.
+- Integrated Optional JWT for accessing article.    
+
+
 
 
 ## Project Tree
