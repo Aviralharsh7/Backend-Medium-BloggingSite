@@ -1,6 +1,9 @@
 # Zoo central 
 A Social Media Blogging platform *using Express.js and MongoDB*
 
+<br>
+PS: for proof of work, please visit "notes" folder where I documented my troubleshooting journey as build this project.
+
 ## Functionalities
 
 - Implemented the Model-View-Controller (MVC) architecture.
